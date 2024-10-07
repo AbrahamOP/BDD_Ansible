@@ -1,0 +1,10 @@
+---
+# Configuration de la rotation des logs
+- name: Configurer la rotation des logs
+  hosts: all
+  become: yes
+  tasks:
+    - name: Copier le fichier de configuration de logrotate
+      template:
+        src: templates/logrotate.conf.j2
+        dest: /etc/logrotate.conf
