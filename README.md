@@ -1,2 +1,4 @@
 # BDD_Ansible
-Ce dépôt contient des fichiers de configuration Ansible en format .yml pour la gestion et le déploiement automatisé de bases de données. Il permet de faciliter l'installation, la configuration et la maintenance des serveurs de bases de données (comme MySQL, PostgreSQL, etc.) à travers l'utilisation de playbooks et de rôles Ansible.
+Ce dépôt contient des fichiers de configuration .yml pour Ansible, destinés à automatiser le déploiement et la gestion des infrastructures. Vous y trouverez des playbooks modulaires permettant de gérer des serveurs, d'installer des logiciels, de configurer des services, et de maintenir un environnement homogène et sécurisé.
+
+Chaque fichier .yml est conçu pour être réutilisable et adaptable, afin de simplifier l'administration système et de réduire les tâches répétitives. Les rôles sont organisés de manière claire, ce qui permet de personnaliser facilement les configurations en fonction des besoins spécifiques des différents environnements.
